@@ -1,0 +1,243 @@
+ h1{
+    font-size: 1.4em;
+    color: gray;
+    height: 2vh;  
+    position: absolute;
+    left: 38%;
+    top: 30%; 
+    font-family: "Courier New",Courier; 
+    display: flex;
+    align-content: center;
+
+}  
+/* body{
+
+    background-image: url("clouds.png");
+} */
+
+.bg{
+
+background: white url("clouds.png");
+height: 100vh;
+background-position: 0px 0px;
+background-repeat: repeat-x;
+animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    from{background-position: 0px 0;}
+    to { background-position: 895px 0;}
+    
+}
+
+
+
+.hidden{
+display: none; 
+}
+
+ form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 40%;
+    height: 105%;
+    bottom: 10%;
+} 
+
+div canvas{
+
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    display: flex;
+  
+
+}
+
+.loader
+{
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    left: 45%;
+    bottom: 50%;
+
+
+
+
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+  p {
+    margin: 1.5em 0;
+  }
+  figure {
+    margin: 3em auto;
+    width: 368px;
+    height: 152px;
+  }
+  canvas {
+    display: block;
+    float: left;
+    margin-left: 8px;
+    margin-top: 8px;
+  }
+
+  .fiveday{
+
+    display:flex; 
+    flex-wrap: wrap;
+    align-content: space-between;
+    width:100%;
+    }
+
+.city-weather{
+
+
+    width:100%;
+    color: black;
+    font-family: "Courier New",Courier; 
+    position: absolute;
+    left: 38%;
+    bottom: 45%;
+    
+}
+#city-weather1{
+
+    color: black;
+    font-family: "Courier New",Courier; 
+    position: absolute;
+    left: 15%;
+    bottom: 15%;
+
+    
+
+}
+#city-weather2{
+  
+    color: black;
+    font-family: "Courier New",Courier; 
+    position: absolute;
+    left: 30%;
+    bottom: 15%;
+  
+}
+#city-weather3{
+
+    color: black;
+    font-family: "Courier New",Courier; 
+    position: absolute;
+    left: 45%;
+    bottom: 15%;
+  
+
+}
+#city-weather4{
+  
+    color: black;
+    font-family: "Courier New",Courier; 
+    position: absolute;
+    left: 60%;
+    bottom: 15%;
+    
+
+}
+#city-weather5{
+ 
+    color: black;
+    font-family: "Courier New",Courier; 
+    position: absolute;
+    left: 75%;
+    bottom: 15%;
+   
+
+}
+
+.day1{
+    position: absolute;
+    left: 15%;
+    bottom: 45%;
+    flex:1;
+    
+}
+.day2{
+    position: absolute;
+    left: 30%;
+    bottom: 45%;
+    flex:1;
+    
+}
+
+.day3{
+    position: absolute;
+    left: 45%;
+    bottom: 45%;
+    flex:1;
+    
+}
+
+.day4{
+    position: absolute;
+    left: 60%;
+    bottom: 45%;
+    flex:1;
+   
+}
+
+.day5{
+    position: absolute;
+    left: 75%;
+    bottom: 45%;
+    flex:1;
+
+}
+
+@media screen and (max-width: 1000px){
+.day1{
+width:20%
+}
+.day2{
+    width:20%
+    }
+    .day3{
+   width:20%
+    }
+    .day4{
+    width:20%
+  }
+  .day5{
+width:20%
+  }
+
+  #city-weather1{
+
+    width:20%
+  }
+  #city-weather2{
+
+    width:20%
+  }
+  #city-weather3{
+
+    width:20%
+  }
+  #city-weather4{
+
+    width:20%
+  }
+  #city-weather5{
+
+    width:20%
+  }
+}
