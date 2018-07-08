@@ -202,6 +202,12 @@ div canvas{
     flex:1;
 
 }
+#copyrights{
+    position: absolute;
+    left: 85%;
+    bottom: 85%;
+
+}
 
 @media screen and (max-width: 1000px){
 .day1{
@@ -241,3 +247,4 @@ width:20%
     width:20%
   }
 }
+
